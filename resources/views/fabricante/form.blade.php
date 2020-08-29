@@ -1,13 +1,13 @@
 @extends('adminlte::page')
 
-@section('title', 'Dashboard')
+@section('title', 'Formulario de Fabricante')
 
 @section('content_header')
-    <h1>Fabricantes</h1>
+    <h1>Lista de Fabricantes</h1>
 @stop
 
 @section('content')
-    <a href="{{ route('fabricantes.create')}}">Cadastrar Novo</a>
+
    
 @stop
 

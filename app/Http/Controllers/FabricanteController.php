@@ -23,7 +23,7 @@ class FabricanteController extends Controller
      */
     public function create()
     {
-        //
+        return view('fabricante.form');
     }
 
     /**
