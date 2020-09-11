@@ -5,6 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 
 class Fabricante extends Model
-{
-    //
+
+{        //
+        protected $fillable = [
+            'nome',
+            'site'
+        ];
+    
 }
+
