@@ -21,4 +21,5 @@ Route::middleware('auth')->group(function(){
 Route::middleware('auth')->group(function () {
     Route::resource('fabricantes', 'FabricanteController');
     Route::resource('produtos', 'ProdutoController');
+    Route::resource('clientes', 'ClienteController');
 });
