@@ -7,7 +7,7 @@
 @stop
 
 @section('content')
-    @include('flash::message')
+    
 
     <div class="card card-primary">
         @if (isset($produto))

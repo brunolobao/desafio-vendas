@@ -245,6 +245,11 @@ return [
             'url' => 'clientes',
             'text' => 'Clientes',
             'icon' => 'fas fa-users'
+        ],
+        [
+            'url'=> 'vends',
+            'text'=> 'Vendas',
+            'icon'
         ]
     ],
 
