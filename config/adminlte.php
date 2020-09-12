@@ -235,6 +235,11 @@ return [
             'url' => 'fabricantes',
           'text' => 'Fabricantes',
           'icon' =>"fas fa-bezier-curve"
+        ],
+        [
+            'url' => 'produtos',
+            'text' => 'Produtos',
+            'icon' => 'fas fa-boxes'
         ]
     ],
 
@@ -334,7 +339,7 @@ return [
             ],
         ],
         'Sweetalert2' => [
-            'active' => false,
+            'active' => true,
             'files' => [
                 [
                     'type' => 'js',
@@ -356,6 +361,16 @@ return [
                     'asset' => false,
                     'location' => '//cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js',
                 ],
+            ],
+        ],
+    ],
+    'Axios' => [
+        'active' => true,
+        'files' => [
+            [
+                'type' => 'js',
+                'asset' => false,
+                'location' => '//unpkg.com/axios/dist/axios.min.js',
             ],
         ],
     ],
